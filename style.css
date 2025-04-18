@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: honeydew;
+    padding-top: 3vw;
+}
+
+#container{
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
+    transition: 0.3s ease; 
+}
+
+ img:hover {
+    filter: drop-shadow(-6px -6px 15px rgba(197, 255, 5, 0.651))
+     drop-shadow(6px 6px 15px rgba(2, 255, 175, 0.824))
+     drop-shadow(-12px -12px 15px rgba(255, 5, 80, 0.651))
+     drop-shadow(12px 12px 25px rgba(40, 2, 255, 0.824));
+  }
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 12px;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 25%;
+    width: 2.5%;
+    top: 24.5%;
+    left: 48.8%;
+    opacity: 0.8;
+    
+}
+
+#minute{
+    height: 31%;
+    width: 1.5%;
+    top: 18%;
+    left: 49%;
+    opacity: 0.8;
+   
+   
+}
+
+#second{
+    height: 39%;
+    width: 1%;
+    top: 11%;
+    left: 49.4%;
+    opacity: 0.8;
+   
+}
+
